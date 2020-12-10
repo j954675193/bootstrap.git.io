@@ -1,0 +1,37 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #eee;
+    color: navy;
+    border: solid #000 1px;
+}
+
+td {
+    /* border: solid #000000 1px */
+    /* border: dashed #aa00aa 2px */
+    vertical-align: top;
+    /* vertical横坐标：left, center, right */
+    /* vertical纵坐标：top, middle, bottom */
+}
+
+.r {
+    text-align: right;
+}
+
+.data {
+    border-left: solid #000 1px;
+    border-right: solid #000 1px;
+}
+
+.info {
+    border-bottom: solid #000 1px;
+    margin-bottom: 2%;
+}
+
+.sheet .sider{
+    text-align: right;
+}
